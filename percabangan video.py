@@ -29,7 +29,7 @@ o=len(password)
 
 print()
 if (username!=password):
-    if (n >= 7 and n <= 12) and (o >= 7 and o <= 12):
+    if (n >= 7 and n <= 12) or (o >= 7 and o <= 12):
         if (n>=7 and n<=12):
             if ((o>=7 and o<=12)):
                 print('Username dan Password anda terverifikasi. Tekan enter untuk login')
@@ -38,7 +38,7 @@ if (username!=password):
                 print()
                 x=input('Masukkan username = ')
                 y=input('Masukkan password = ')
-                if x==username and y==password:
+                if x==username or y==password:
                     if x==username:
                         if y==password:
                             print('Selamat datang!')
