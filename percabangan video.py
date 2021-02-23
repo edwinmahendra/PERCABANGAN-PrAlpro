@@ -7,7 +7,7 @@ Kemudian setelah melakukan sign up, ia akan login. Ada beberapa kondisi yang har
     Jika username dan password jumlah karakternya kurang dari 7 dan lebih dari 12
     maka outputnya 'Username dan Password harus berisi 7-12 karakter'
 -Jika ketika 'login', Kumi salah memasukkan password dan username maka
-    program akan memngeluarkan ouput 'Username dan Password anda salah'
+    program akan mengeluarkan ouput 'Username dan Password anda salah'
     -Jika Kumi salah memasukkan username maka
     program akan mengeluarkan ouput 'Username anda salah'
     -Jika Kumi salah memasukkan password maka
@@ -51,6 +51,6 @@ if (username!=password):
         else:
             print('Username harus berisi 7-12 karakter')
     else:
-        print('Username dan Password harus berisi 8-12 karakter')
+        print('Username dan Password harus berisi 7-12 karakter')
 else:
     print('Username dan Password harus berbeda')
