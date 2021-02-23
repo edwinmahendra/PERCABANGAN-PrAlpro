@@ -5,19 +5,17 @@ Kumi akan melakukan sign up akun sosial media barunya.
 Kemudian setelah melakukan sign up, ia akan login. Ada beberapa kondisi yang harus dipenuhi:
 -Jika ketika 'sign up', username = password maka program akan mengeluarkan 'Username dan Password harus berbeda
     Jika username dan password jumlah karakternya kurang dari 7 dan lebih dari 12
-    maka outputnya 'Username dan Password harus berisi 8-12 karakter'
+    maka outputnya 'Username dan Password harus berisi 7-12 karakter'
 -Jika ketika 'login', Kumi salah memasukkan password dan username maka
     program akan memngeluarkan ouput 'Username dan Password anda salah'
     -Jika Kumi salah memasukkan username maka
-    program akan memngeluarkan ouput 'Username anda salah'
+    program akan mengeluarkan ouput 'Username anda salah'
     -Jika Kumi salah memasukkan password maka
-    program akan memngeluarkan ouput 'Password anda salah'
+    program akan mengeluarkan ouput 'Password anda salah'
     -Jika semua kondisi bernilai benar maka
-    program akan memngeluarkan ouput 'Selamat datang!'
+    program akan mengeluarkan ouput 'Selamat datang!'
 '''
 
-print('===SELAMAT DATANG===')
-print()
 print('Silakan sign up')
 print()
 
